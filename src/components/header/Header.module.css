@@ -1,0 +1,12 @@
+.title {
+  font-size: 26px;
+  font-weight: 600;
+  color: #1d1c1c;
+}
+
+.subTitle {
+  color: #1d1c1c;
+  opacity: 0.5;
+  font-size: 15px;
+  margin-top: 4px;
+}

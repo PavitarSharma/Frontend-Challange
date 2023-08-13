@@ -1,0 +1,51 @@
+.stepper {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.stepper__deatils {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.stepper__count {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: 2px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stepper__count_active {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: azure;
+  border: none;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.step {
+  font-weight: 600;
+  color: rgb(158, 158, 158);
+}
+
+.stepper__name {
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+  .stepper__deatils {
+    display: none;
+  }
+}
